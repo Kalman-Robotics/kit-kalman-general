@@ -5,6 +5,7 @@
   - [Qué se puede hacer con el robot?](#qué-se-puede-hacer-con-el-robot)
     - [Teleoperación](#teleoperación)
     - [Navegación autónoma](#navegación-autónoma)
+  - [Video demostrativo de navegación autónoma](#video-demostrativo-de-navegación-autónoma)
   - [Repositorios de software](#repositorios-de-software)
     - [Software principal del kit:](#software-principal-del-kit)
     - [Recursos adicionales:](#recursos-adicionales)
@@ -23,16 +24,23 @@
   Tu navegador no soporta el elemento <code>video</code>.
 </video>
 
-<!-- <video controls style="width:66%;">
-  <source src="video.mp4" type="video/mp4">
+---
+<video controls style="width:33%;">
+  <source src="images/test.mp4" type="video/mp4">
   Tu navegador no soporta el elemento <code>video</code>.
-</video> -->
+</video>
+
+---
+<video src="images/test.mp4" controls width="180">
+  Tu navegador no soporta el elemento de video.
+</video>
 
 </details>
 
 ### Navegación autónoma
 <details>
 <summary>Video demostrativo de navegación autónoma</summary>
+---
 
 <video controls style="width:66%;" src="https://github.com/user-attachments/assets/27162948-e6a4-496f-940a-d97bb359d9fe">
   Tu navegador no soporta el elemento <code>video</code>.
