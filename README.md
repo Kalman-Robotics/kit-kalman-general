@@ -1,15 +1,30 @@
 # Kit de robótica de bajo costo y open source de Kalman Robotics
 
 - [Kit de robótica de bajo costo y open source de Kalman Robotics](#kit-de-robótica-de-bajo-costo-y-open-source-de-kalman-robotics)
-  - [Presentación del kit de robótica Kalman Robotics:](#presentación-del-kit-de-robótica-kalman-robotics)
+  - [Presentación del kit de robótica:](#presentación-del-kit-de-robótica)
   - [Repositorios de software](#repositorios-de-software)
     - [Software principal del kit:](#software-principal-del-kit)
     - [Recursos adicionales:](#recursos-adicionales)
     - [Dependencias personalizadas (incluídas en los repositorios principales):](#dependencias-personalizadas-incluídas-en-los-repositorios-principales)
 
-
-## Presentación del kit de robótica Kalman Robotics:
+## Presentación del kit de robótica:
 - [Canva del kit](https://www.canva.com/design/DAG5KX8kaVM/MdHAGVO1DspUOV7yRi6xQQ/edit)
+Videos (lado a lado):
+
+<div style="display:flex;gap:10px;flex-wrap:wrap;">
+  <div style="flex:1;min-width:300px;">
+    <video controls style="width:100%;" src="https://github.com/user-attachments/assets/27162948-e6a4-496f-940a-d97bb359d9fe">
+      Tu navegador no soporta el elemento <code>video</code>.
+    </video>
+  </div>
+  <div style="flex:1;min-width:300px;">
+    <video controls style="width:100%;" src="https://github.com/user-attachments/assets/a1f37ff9-4a41-4fec-8ec5-0f23e93b9023">
+      Tu navegador no soporta el elemento <code>video</code>.
+    </video>
+  </div>
+</div>
+
+Nota: GitHub README permite HTML en Markdown, pero en móviles o pantallas estrechas quedarán apilados. Si los enlaces no reproducen, intenta usar las URL "raw" directas o subir los archivos al repositorio y referenciarlos con ruta relativa.
 
 ## Repositorios de software
 ### Software principal del kit:
