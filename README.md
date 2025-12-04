@@ -2,6 +2,9 @@
 
 - [Kit de robótica de bajo costo y open source de Kalman Robotics](#kit-de-robótica-de-bajo-costo-y-open-source-de-kalman-robotics)
   - [Presentación del kit de robótica:](#presentación-del-kit-de-robótica)
+  - [Qué se puede hacer con el robot?](#qué-se-puede-hacer-con-el-robot)
+    - [Teleoperación](#teleoperación)
+    - [Navegación autónoma](#navegación-autónoma)
   - [Repositorios de software](#repositorios-de-software)
     - [Software principal del kit:](#software-principal-del-kit)
     - [Recursos adicionales:](#recursos-adicionales)
@@ -10,18 +13,35 @@
 ## Presentación del kit de robótica:
 - [Canva del kit](https://www.canva.com/design/DAG5KX8kaVM/MdHAGVO1DspUOV7yRi6xQQ/edit)
 
-<div style="display:flex;gap:10px;flex-wrap:wrap;">
-  <div style="flex:0 0 70%;min-width:300px;">
-    <video controls style="width:100%;" src="https://github.com/user-attachments/assets/27162948-e6a4-496f-940a-d97bb359d9fe">
-      Tu navegador no soporta el elemento <code>video</code>.
-    </video>
-  </div>
-  <div style="flex:0 0 30%;min-width:150px;">
-    <video controls style="width:100%;" src="https://github.com/user-attachments/assets/a1f37ff9-4a41-4fec-8ec5-0f23e93b9023">
-      Tu navegador no soporta el elemento <code>video</code>.
-    </video>
-  </div>
-</div>
+## Qué se puede hacer con el robot?
+
+### Teleoperación
+<details>
+<summary>Video demostrativo de teleoperación</summary>
+
+<video controls style="width:33%;" src="images/test.mp4">
+  Tu navegador no soporta el elemento <code>video</code>.
+</video>
+
+<!-- <video controls style="width:66%;">
+  <source src="video.mp4" type="video/mp4">
+  Tu navegador no soporta el elemento <code>video</code>.
+</video> -->
+
+</details>
+
+### Navegación autónoma
+<details>
+<summary>Video demostrativo de navegación autónoma</summary>
+
+<video controls style="width:66%;" src="https://github.com/user-attachments/assets/27162948-e6a4-496f-940a-d97bb359d9fe">
+  Tu navegador no soporta el elemento <code>video</code>.
+</video>
+
+<video controls style="width:33%;" src="https://github.com/user-attachments/assets/a1f37ff9-4a41-4fec-8ec5-0f23e93b9023">
+  Tu navegador no soporta el elemento <code>video</code>.
+</video>
+</details>
 
 ## Repositorios de software
 ### Software principal del kit:
