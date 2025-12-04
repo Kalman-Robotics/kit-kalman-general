@@ -9,22 +9,19 @@
 
 ## Presentación del kit de robótica:
 - [Canva del kit](https://www.canva.com/design/DAG5KX8kaVM/MdHAGVO1DspUOV7yRi6xQQ/edit)
-Videos (lado a lado):
 
 <div style="display:flex;gap:10px;flex-wrap:wrap;">
-  <div style="flex:1;min-width:300px;">
+  <div style="flex:0 0 70%;min-width:300px;">
     <video controls style="width:100%;" src="https://github.com/user-attachments/assets/27162948-e6a4-496f-940a-d97bb359d9fe">
       Tu navegador no soporta el elemento <code>video</code>.
     </video>
   </div>
-  <div style="flex:1;min-width:300px;">
+  <div style="flex:0 0 30%;min-width:150px;">
     <video controls style="width:100%;" src="https://github.com/user-attachments/assets/a1f37ff9-4a41-4fec-8ec5-0f23e93b9023">
       Tu navegador no soporta el elemento <code>video</code>.
     </video>
   </div>
 </div>
-
-Nota: GitHub README permite HTML en Markdown, pero en móviles o pantallas estrechas quedarán apilados. Si los enlaces no reproducen, intenta usar las URL "raw" directas o subir los archivos al repositorio y referenciarlos con ruta relativa.
 
 ## Repositorios de software
 ### Software principal del kit:
