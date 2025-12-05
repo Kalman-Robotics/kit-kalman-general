@@ -94,7 +94,7 @@ Poder comandar al robot por velocidades y conocer la lectura de los sensores per
 El mapeo 2D permite al robot crear un mapa del entorno utilizando datos del sensor LiDAR. Este mapa puede ser utilizado para la navegación autónoma y otras aplicaciones.
 <details>
 <summary>Video demostrativo de mapeo 2D</summary>
-<video controls style="width:33%;" src="GRABAR">
+<video controls style="width:33%;" src="https://github.com/user-attachments/assets/ed57c001-a634-4efa-a380-a336584130f5">
   Tu navegador no soporta el elemento <code>video</code>.
 </video>
 </details>
