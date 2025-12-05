@@ -44,13 +44,6 @@
 <details>
 <summary>Video demostrativo de navegación autónoma</summary>
 
-### Otras cosas
-- Fusión de sensores (IMU + odometría)
-- Obtención de odometría basada en sensores
-- Integración de algoritmos de localización
-- Integración de algortimos de exploración
-- Integración con asistentes de voz e IA
-
 <video controls style="width:66%;" src="https://github.com/user-attachments/assets/27162948-e6a4-496f-940a-d97bb359d9fe">
   Tu navegador no soporta el elemento <code>video</code>.
 </video>
@@ -59,6 +52,13 @@
   Tu navegador no soporta el elemento <code>video</code>.
 </video>
 </details>
+
+### Otras cosas
+- Fusión de sensores (IMU + odometría)
+- Obtención de odometría basada en sensores
+- Integración de algoritmos de localización
+- Integración de algortimos de exploración
+- Integración con asistentes de voz e IA
 
 ## Repositorios de software
 ### Software principal del kit:

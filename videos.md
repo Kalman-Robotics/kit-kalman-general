@@ -7,7 +7,7 @@
 
 ## video 2
 <video controls style="width:33%;">
-  <source src="images/test.mp4" type="video/mp4">
+  <source src="https://raw.githubusercontent.com/Kalman-Robotics/kit-kalman-general/main/images/test.mp4" type="video/mp4">
   Tu navegador no soporta el elemento <code>video</code>.
 </video>
 
