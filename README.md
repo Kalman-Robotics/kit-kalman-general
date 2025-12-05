@@ -4,8 +4,9 @@
   - [Presentación del kit de robótica:](#presentación-del-kit-de-robótica)
   - [Qué se puede hacer con el robot?](#qué-se-puede-hacer-con-el-robot)
     - [Teleoperación](#teleoperación)
+    - [Mapeo 2D](#mapeo-2d)
     - [Navegación autónoma](#navegación-autónoma)
-  - [Video demostrativo de navegación autónoma](#video-demostrativo-de-navegación-autónoma)
+    - [Otras cosas](#otras-cosas)
   - [Repositorios de software](#repositorios-de-software)
     - [Software principal del kit:](#software-principal-del-kit)
     - [Recursos adicionales:](#recursos-adicionales)
@@ -24,23 +25,31 @@
   Tu navegador no soporta el elemento <code>video</code>.
 </video>
 
----
+
 <video controls style="width:33%;">
   <source src="images/test.mp4" type="video/mp4">
   Tu navegador no soporta el elemento <code>video</code>.
 </video>
 
----
+
 <video src="images/test.mp4" controls width="180">
   Tu navegador no soporta el elemento de video.
 </video>
 
 </details>
 
+### Mapeo 2D
+
 ### Navegación autónoma
 <details>
 <summary>Video demostrativo de navegación autónoma</summary>
----
+
+### Otras cosas
+- Fusión de sensores (IMU + odometría)
+- Obtención de odometría basada en sensores
+- Integración de algoritmos de localización
+- Integración de algortimos de exploración
+- Integración con asistentes de voz e IA
 
 <video controls style="width:66%;" src="https://github.com/user-attachments/assets/27162948-e6a4-496f-940a-d97bb359d9fe">
   Tu navegador no soporta el elemento <code>video</code>.
