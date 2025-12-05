@@ -3,7 +3,8 @@
 ![robots](images/robots.png)
 
 - [Kit de robótica de bajo costo y open source de Kalman Robotics](#kit-de-robótica-de-bajo-costo-y-open-source-de-kalman-robotics)
-  - [Presentación del kit de robótica](#presentación-del-kit-de-robótica)
+  - [Presentación](#presentación)
+  - [Características principales del robot](#características-principales-del-robot)
   - [Qué aplicaciones se pueden hacer con el robot?](#qué-aplicaciones-se-pueden-hacer-con-el-robot)
     - [Teleoperación](#teleoperación)
     - [Algortimos variados](#algortimos-variados)
@@ -14,9 +15,34 @@
     - [Software principal del kit](#software-principal-del-kit)
     - [Recursos adicionales](#recursos-adicionales)
     - [Dependencias personalizadas (incluídas en los repositorios principales)](#dependencias-personalizadas-incluídas-en-los-repositorios-principales)
+  - [Redes Sociales](#redes-sociales)
 
-## Presentación del kit de robótica
-- [Canva del kit](https://www.canva.com/design/DAG5KX8kaVM/MdHAGVO1DspUOV7yRi6xQQ/edit)
+## Presentación
+[Kalman Robotics](https://kalmanrobotics.io/) con el objetivo de fomentar la educación y la investigación en robótica móvil, ha desarrollado un kit de robótica de **bajo costo** y **open source**. Este kit está diseñado para ser accesible para estudiantes, educadores e investigadores, proporcionando una plataforma versátil para aprender y experimentar con robótica móvil. [Presentación Canva del Kit.](https://www.canva.com/design/DAG5KX8kaVM/EGcQhmG82Dps6QZfn75TnA/view?utm_content=DAG5KX8kaVM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h2c5431ab82)
+
+> Si estás interesado en adquirir el kit, aprender más de robótica, ROS2 y micro-ROS, visita nuestra [plataforma educativa](https://kalmanrobotics.io/).
+
+## Características principales del robot
+
+- **Microcontrolador**: ESP32-S3
+- **PCB con drivers de motor integrados**
+- **Sensores**:
+  - LiDAR 360° 
+  - Encoders en ruedas
+  - IMU 6DOF (Acelerómetro y Giroscopio)
+  - Medidor de voltaje de batería
+- **Actuadores**:
+  - Motores DC
+  - Buzzer
+  - LED
+- **Comunicación**: micro-ROS sobre WiFi
+- **Alimentación**: 1 Batería recargable
+- **Plataforma móvil diferencial**:
+  - Llantas de goma
+  - Chasis de PLA
+  - Rueda loca
+  - Antena WiFi
+- **Dimensiones compactas y diseño original**
 
 ## Qué aplicaciones se pueden hacer con el robot?
 
@@ -89,3 +115,12 @@ En este 2do video se observa al robot real navegando de forma autónoma hacia el
 ### Dependencias personalizadas (incluídas en los repositorios principales)
 - [Libería de Micro-ROS personalizada de Kalman Robotics](https://github.com/Kalman-Robotics/micro_ros_kalman)
 - [Interfaces personalizados de Kalman Robotics](https://github.com/Kalman-Robotics/kalman_interfaces)
+
+## Redes Sociales
+- Plataforma Educativa: [kalmanrobotics.io](https://kalmanrobotics.io/)
+- LinkedIn: [Kalman Robotics](https://www.linkedin.com/company/kalman-robotics/)
+- GitHub: [Kalman Robotics](https://github.com/Kalman-Robotics)
+<!-- - YouTube: [Kalman Robotics](https://www.youtube.com/@kalmanrobotics) -->
+<!-- - Instagram: [@kalmanrobotics](https://www.instagram.com/kalmanrobotics/) -->
+<!-- - Facebook: [Kalman Robotics](https://www.facebook.com/kalmanrobotics) -->
+<!-- - Twitter: [@kalmanrobotics](https://twitter.com/kalmanrobotics) -->
