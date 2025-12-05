@@ -7,7 +7,7 @@
   - [Características principales del robot](#características-principales-del-robot)
   - [Qué aplicaciones se pueden hacer con el robot?](#qué-aplicaciones-se-pueden-hacer-con-el-robot)
     - [Teleoperación](#teleoperación)
-    - [Algortimos variados](#algortimos-variados)
+    - [Algoritmos variados](#algoritmos-variados)
     - [Mapeo 2D](#mapeo-2d)
     - [Navegación autónoma](#navegación-autónoma)
     - [Mucho más ...](#mucho-más-)
@@ -60,7 +60,7 @@ La teleoperación es el primer paso para controlar el robot de forma remota. Uti
 </video>
 </details>
 
-### Algortimos variados
+### Algoritmos variados
 Poder comandar al robot por velocidades y conocer la lectura de los sensores permite implementar diversos algoritmos de robótica móvil, como por ejemplo:
 - Evitación de obstáculos
 - Seguimiento de paredes
