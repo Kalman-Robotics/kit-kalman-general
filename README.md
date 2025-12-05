@@ -157,6 +157,3 @@ El robot ejecuta un nodo de micro-ROS que se comunica con un agente de micro-ROS
 <!-- - Instagram: [@kalmanrobotics](https://www.instagram.com/kalmanrobotics/) -->
 <!-- - Facebook: [Kalman Robotics](https://www.facebook.com/kalmanrobotics) -->
 <!-- - Twitter: [@kalmanrobotics](https://twitter.com/kalmanrobotics) -->
-
-Revisar esto:
-[text](otro.md)
