@@ -118,9 +118,12 @@ El robot ejecuta un nodo de micro-ROS que se comunica con un agente de micro-ROS
 
 <img src="images/rqt_pc_telemetry.png" alt="rqt robot" style="width:100%; max-width:100%;">
 
+> - Las formas ovaladas representan nodos.
+> - Las formas rectangulares representan tópicos (canales de comunicación entre nodos).
+
 - **Nodo de teleoperación en la computadora**
 
-<img src="images/rqt_pc_telemetry.png" alt="rqt robot" style="width:100%; max-width:100%;">
+<img src="images/rqt_pc_teleop.png" alt="rqt robot" style="width:100%; max-width:100%;">
 
 - **Nodo de sensor IMU en la computadora**
 
@@ -131,9 +134,6 @@ El robot ejecuta un nodo de micro-ROS que se comunica con un agente de micro-ROS
 - **Nodos para mapeo 2D**
 
 <img src="images/rqt_pc_mapeo.png" alt="rqt robot" style="width:100%; max-width:100%;">
-
-> - Las formas ovaladas representan nodos.
-> - Las formas rectangulares representan tópicos (canales de comunicación entre nodos).
 
 
 ## REPOSITORIOS de software
