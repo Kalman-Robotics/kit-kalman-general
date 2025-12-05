@@ -5,13 +5,13 @@
 - [Kit de robótica de bajo costo y open source de Kalman Robotics](#kit-de-robótica-de-bajo-costo-y-open-source-de-kalman-robotics)
   - [Presentación](#presentación)
   - [Características principales del robot](#características-principales-del-robot)
-  - [Cómo funciona internamente la conectividad entre el robot y la computadora?](#cómo-funciona-internamente-la-conectividad-entre-el-robot-y-la-computadora)
   - [Qué aplicaciones se pueden hacer con el robot?](#qué-aplicaciones-se-pueden-hacer-con-el-robot)
     - [Teleoperación](#teleoperación)
     - [Algortimos variados](#algortimos-variados)
     - [Mapeo 2D](#mapeo-2d)
     - [Navegación autónoma](#navegación-autónoma)
     - [Mucho más ...](#mucho-más-)
+  - [Cómo funciona internamente la conectividad entre el robot y la computadora?](#cómo-funciona-internamente-la-conectividad-entre-el-robot-y-la-computadora)
   - [REPOSITORIOS de software](#repositorios-de-software)
     - [Software principal del kit](#software-principal-del-kit)
     - [Recursos adicionales](#recursos-adicionales)
@@ -46,27 +46,6 @@ El robot se encuentra conformado por los siguientes componentes principales:
   - Antena WiFi
 - **Dimensiones compactas y diseño original**
 
-## Cómo funciona internamente la conectividad entre el robot y la computadora?
-El robot ejecuta un nodo de micro-ROS que se comunica con un agente de micro-ROS corriendo en la computadora a través de una red WiFi. Esta configuración permite enviar comandos de movimiento al robot y recibir datos de sus sensores en tiempo real. En la siguientes imágenes se observa el gráfico de nodos de RQT para una mejor comprensión de la arquitectura de software del robot:
-
-1. **Nodo de micro-ROS en el robot ESP32-S3** (indispensable para interactuar con el robot)
-
-<img src="images/rqt_robot.png" alt="rqt robot" style="width:22%; max-width:100%;">
-
-2. **Nodo de telemetría y robot_state_publisher en la computadora** (requerido para obtener la lectura de sensores y estados del robot como mensajes estándar de ROS2)
-
-<img src="images/rqt_pc_telemetry.png" alt="rqt robot" style="width:100%; max-width:100%;">
-
-3. **Nodo de teleoperación en la computadora**
-
-<img src="images/rqt_pc_telemetry.png" alt="rqt robot" style="width:100%; max-width:100%;">
-
-4. **Nodo de sensor IMU en la computadora**
-
-<img src="images/rqt_pc_imu.png" alt="rqt robot" style="width:100%; max-width:100%;">
-
-> - Las formas ovaladas representan nodos.
-> - Las formas rectangulares representan tópicos (canales de comunicación entre nodos).
 
 ## Qué aplicaciones se pueden hacer con el robot?
 
@@ -94,7 +73,7 @@ Poder comandar al robot por velocidades y conocer la lectura de los sensores per
 El mapeo 2D permite al robot crear un mapa del entorno utilizando datos del sensor LiDAR. Este mapa puede ser utilizado para la navegación autónoma y otras aplicaciones.
 <details>
 <summary>Video demostrativo de mapeo 2D</summary>
-<video controls style="width:33%;" src="https://github.com/user-attachments/assets/ed57c001-a634-4efa-a380-a336584130f5">
+<video controls style="width:66%;" src="https://github.com/user-attachments/assets/ed57c001-a634-4efa-a380-a336584130f5">
   Tu navegador no soporta el elemento <code>video</code>.
 </video>
 </details>
@@ -126,6 +105,36 @@ En este 2do video se observa al robot real navegando de forma autónoma hacia el
 - Interfaz web para control y monitoreo
 - Integración con asistentes de voz e IA
 - Y muchos más ...
+
+
+## Cómo funciona internamente la conectividad entre el robot y la computadora?
+El robot ejecuta un nodo de micro-ROS que se comunica con un agente de micro-ROS corriendo en la computadora a través de una red WiFi. Esta configuración permite enviar comandos de movimiento al robot y recibir datos de sus sensores en tiempo real. En la siguientes imágenes se observa el gráfico de nodos de RQT para una mejor comprensión de la arquitectura de software del robot:
+
+1. **Nodo de micro-ROS en el robot ESP32-S3** (indispensable para interactuar con el robot)
+
+<img src="images/rqt_robot.png" alt="rqt robot" style="width:22%; max-width:100%;">
+
+2. **Nodo de telemetría y robot_state_publisher en la computadora** (requerido para obtener la lectura de sensores y estados del robot como mensajes estándar de ROS2)
+
+<img src="images/rqt_pc_telemetry.png" alt="rqt robot" style="width:100%; max-width:100%;">
+
+- **Nodo de teleoperación en la computadora**
+
+<img src="images/rqt_pc_telemetry.png" alt="rqt robot" style="width:100%; max-width:100%;">
+
+- **Nodo de sensor IMU en la computadora**
+
+<img src="images/rqt_pc_imu.png" alt="rqt robot" style="width:100%; max-width:100%;">
+
+- Siguiendo esta misma lógica, se pueden agregar más nodos en la computadora para implementar funcionalidades adicionales como mapeo 2D, navegación autónoma, entre otras.
+
+- **Nodos para mapeo 2D**
+
+<img src="images/rqt_pc_mapeo.png" alt="rqt robot" style="width:100%; max-width:100%;">
+
+> - Las formas ovaladas representan nodos.
+> - Las formas rectangulares representan tópicos (canales de comunicación entre nodos).
+
 
 ## REPOSITORIOS de software
 ### Software principal del kit
