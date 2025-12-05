@@ -5,6 +5,7 @@
 - [Kit de robótica de bajo costo y open source de Kalman Robotics](#kit-de-robótica-de-bajo-costo-y-open-source-de-kalman-robotics)
   - [Presentación](#presentación)
   - [Características principales del robot](#características-principales-del-robot)
+  - [Cómo funciona internamente la conectividad entre el robot y la computadora?](#cómo-funciona-internamente-la-conectividad-entre-el-robot-y-la-computadora)
   - [Qué aplicaciones se pueden hacer con el robot?](#qué-aplicaciones-se-pueden-hacer-con-el-robot)
     - [Teleoperación](#teleoperación)
     - [Algortimos variados](#algortimos-variados)
@@ -23,6 +24,7 @@
 > Si estás interesado en adquirir el kit, aprender más de robótica, ROS2 y micro-ROS, visita nuestra [plataforma educativa](https://kalmanrobotics.io/).
 
 ## Características principales del robot
+El robot se encuentra conformado por los siguientes componentes principales:
 
 - **Microcontrolador**: ESP32-S3
 - **PCB con drivers de motor integrados**
@@ -43,6 +45,28 @@
   - Rueda loca
   - Antena WiFi
 - **Dimensiones compactas y diseño original**
+
+## Cómo funciona internamente la conectividad entre el robot y la computadora?
+El robot ejecuta un nodo de micro-ROS que se comunica con un agente de micro-ROS corriendo en la computadora a través de una red WiFi. Esta configuración permite enviar comandos de movimiento al robot y recibir datos de sus sensores en tiempo real. En la siguientes imágenes se observa el gráfico de nodos de RQT para una mejor comprensión de la arquitectura de software del robot:
+
+1. **Nodo de micro-ROS en el robot ESP32-S3** (indispensable para interactuar con el robot)
+
+<img src="images/rqt_robot.png" alt="rqt robot" style="width:22%; max-width:100%;">
+
+2. **Nodo de telemetría y robot_state_publisher en la computadora** (requerido para obtener la lectura de sensores y estados del robot como mensajes estándar de ROS2)
+
+<img src="images/rqt_pc_telemetry.png" alt="rqt robot" style="width:100%; max-width:100%;">
+
+3. **Nodo de teleoperación en la computadora**
+
+<img src="images/rqt_pc_telemetry.png" alt="rqt robot" style="width:100%; max-width:100%;">
+
+4. **Nodo de sensor IMU en la computadora**
+
+<img src="images/rqt_pc_imu.png" alt="rqt robot" style="width:100%; max-width:100%;">
+
+> - Las formas ovaladas representan nodos.
+> - Las formas rectangulares representan tópicos (canales de comunicación entre nodos).
 
 ## Qué aplicaciones se pueden hacer con el robot?
 
